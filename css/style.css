@@ -30,12 +30,30 @@ i {
     padding-top: 1%;
     text-align: center;
 }
-#about-container {
-    padding-top:1vh;
-}
 
 .navbar {
     position: fixed; 
+}
+
+.row{
+    padding-bottom: 5%;
+}
+
+#contactme-content {
+    text-align: center;
+}
+
+input[type=text], textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 10px; 
+  }
+  
+input[type=submit] {
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 footer {
