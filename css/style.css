@@ -1,0 +1,44 @@
+header {
+    position: absolute;
+    width: 100%;
+    top: 35vh;
+}
+
+header video {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill; 
+}
+
+#home-content {
+    text-align: center;
+    color: white;
+}
+
+#home-content .btn-default {
+    margin-top: 1%;
+    color:white;
+    border-color: white;
+} 
+
+i {
+    padding: 20%;
+}
+
+#about-content {
+    padding-top: 1%;
+    text-align: center;
+}
+#about-container {
+    padding-top:1vh;
+}
+
+.navbar {
+    position: fixed; 
+}
+
+footer {
+    padding: 5%;
+    text-align: center;
+}
