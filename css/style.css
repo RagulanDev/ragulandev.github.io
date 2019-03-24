@@ -10,6 +10,9 @@ header video {
     height: 100vh;
     object-fit: fill; 
 }
+video {
+    filter:brightness(75%);
+}
 
 #home-content {
     text-align: center;
@@ -21,6 +24,11 @@ header video {
     color:white;
     border-color: white;
 } 
+
+#cv-button {
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
 
 i {
     padding: 20%;
@@ -38,6 +46,7 @@ i {
 .row{
     padding-bottom: 5%;
 }
+
 
 #contactme-content {
     text-align: center;
@@ -59,4 +68,9 @@ input[type=submit] {
 footer {
     padding: 5%;
     text-align: center;
+}
+
+/* CV Page */
+#cv-title {
+    padding-top:2vh; 
 }
