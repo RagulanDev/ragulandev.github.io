@@ -4,7 +4,7 @@ header {
     top: 35vh;
 }
 
-header video {
+video {
     position: relative;
     width: 100vw;
     height: 100vh;
